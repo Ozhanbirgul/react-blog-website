@@ -9,8 +9,28 @@ Bu proje, React ile yapılmış bir blog uygulamasıdır. React'in temel konsept
 - **useEffect Hook'u**: Yan etkileri yönetmek için kullanılmıştır; örneğin, blog yazılarını çekmek veya kullanıcı tercihlerini kaydetmek gibi işlemler.
 - **React Router DOM**: Blog'un farklı sayfalarına geçiş yapmak için sayfa yönlendirmesi sağlanmıştır.
 - **Light/Dark Mode Geçişi**: Kullanıcıların tema tercihini yönetmek için Context API kullanılarak light ve dark mode arasında geçiş yapılabilen bir buton eklenmiştir.
+- **TailwindCSS**: Proje stil tasarımı için TailwindCSS kullanılmıştır.
 
 ## Kurulum
 
 Bu projeyi yerel olarak çalıştırmak için şu adımları takip edebilirsiniz:
 
+1. Depoyu klonlayın:
+   git clone https://github.com/kullanici-adi/react-blog-project.git
+
+2. Proje dizinine gidin:
+    cd react-blog-project
+   
+3. Bağımlılıkları yükleyin: 
+    npm install
+   
+4. Uygulamayı başlatın:
+   npm start
+
+
+## Kullanılan Teknolojiler
+
+- ** React
+- ** React Router DOM
+- ** Context API
+- ** TailwindCSS
