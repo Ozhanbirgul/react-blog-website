@@ -30,7 +30,7 @@ const Modal = ({isOpen, onclose}) => {
 
 
             {/* modal close btn */}
-            <button onClick={onClose} className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded 
+            <button onClick={onclose} className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded 
             inline-flex items-center mt-8'>
                 close
             </button>
